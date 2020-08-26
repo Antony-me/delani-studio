@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    height: 950px;
+    color: white;
+    padding-top: 250px;
+    background-image: url("assets/backgrounds/h_img.jpg");
+    background-position: center;
+    border: 2px solid gray;
+    line-height: 200%;
+    overflow:hidden;
+   
+   
+}
+h1{
+    padding-top: 100px;
+    font-weight: 5em;
+}
+#mouse{
+    padding-top: 210px;
+}
+h2, h3{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    height: 300px;
+    width: 69%;
+    margin: auto;
+    line-height: 300%;
+}
+.what-we-do{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+
+}
+.figure {
+    /* float: right; */
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+.services{
+    background-image: url("assets/backgrounds/s_image.jpg");
+    color: white;
+    height: 400px;
+    padding-top: 150px;
+    text-align: center;
+    margin: auto;
+    line-height: 300%;
+}
+.contacts{
+    background-image: url("assets/backgrounds/c_image.jpg");
+    height: 400px;
+    color: white;
+}
+.contact {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#port{
+    padding: 10px;
+}
+
+[type=text], select, textarea {
+    width: 75%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+[type=email], select, textarea{
+    width: 45%;
+}
+[type=name], select, textarea {
+    width: 45%;
+}
+[type=submit], select, textarea{
+    width: 90%;
+}
+  
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
