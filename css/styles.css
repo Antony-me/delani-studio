@@ -3,50 +3,50 @@ body{
 }
 header{
     text-align: center;
-    height: 950px;
     color: white;
-    padding-top: 250px;
-    background-image: url("assets/backgrounds/h_img.jpg");
-    background-position: center;
+    padding-top:17%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 2px solid gray;
-    line-height: 200%;
-    overflow:hidden;
-   
-   
 }
 h1{
-    padding-top: 100px;
-    font-weight: 5em;
+    padding: 2px;
+    margin: 5px;
 }
 #mouse{
-    padding-top: 210px;
+    padding-top: 220px;
+    animation: bounce 2s infinite;
 }
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-60px);
+    }
+    60% {
+      transform: translateY(-50px);
+    }
+}
+.what-we-do{
+    text-align: center;
+  padding-top: 40px;
+
+}
+  
 h2, h3{
     text-align: center;
 }
 .about{
     text-align: center;
-    height: 300px;
+    height: 270px;
     width: 69%;
     margin: auto;
-    line-height: 300%;
-}
-.what-we-do{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 85%;
-
-}
-.figure {
-    /* float: right; */
-    font-family: inherit;
-    font-size: inherit;
-    text-align: center;
+    line-height: 200%;
 }
 
 .services{
-    background-image: url("assets/backgrounds/s_image.jpg");
     color: white;
     height: 400px;
     padding-top: 150px;
@@ -54,10 +54,7 @@ h2, h3{
     margin: auto;
     line-height: 300%;
 }
-.contacts{
-    background-image: url("assets/backgrounds/c_image.jpg");
-    height: 400px;
-    color: white;
+
 }
 .contact {
     margin: 10px;
@@ -67,16 +64,6 @@ h2, h3{
     justify-content: center;
     
 }
-
-#portfolio{
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-#port{
-    padding: 10px;
-}
-
 [type=text], select, textarea {
     width: 75%; 
     padding: 12px;
@@ -102,6 +89,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.contacts{
+    height: 400px;
+    color: white;
 }
 #social{
     display: flex;
