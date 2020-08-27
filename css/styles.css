@@ -55,6 +55,16 @@ h2, h3{
     line-height: 300%;
 }
 
+.row1{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.row2{
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .contact {
     margin: 10px;
