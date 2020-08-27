@@ -107,7 +107,7 @@ input[type=submit] {
     height: 400px;
     color: white;
 }
-#social ul{
+.social ul{
     list-style: none;
     text-align: center;
     display: inline;
@@ -115,11 +115,11 @@ input[type=submit] {
     justify-content: center;
     padding-top: 50px;
 }
-#social li:hover{
+.social li:hover{
     animation: bounce 2s ;
 
 }
-@keyframes bounce {
+@keyframes backdrop {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(10);
     }
