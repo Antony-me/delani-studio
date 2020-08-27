@@ -107,21 +107,27 @@ input[type=submit] {
     height: 400px;
     color: white;
 }
-#social{
+#social ul{
+    list-style: none;
+    text-align: center;
+    display: inline;
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    animation: bounce 2s infinite;
+}
+#social li:hover{
+    animation: bounce 2s ;
+
 }
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
+      transform: translateY(10);
     }
-    40% {
-      transform: translateY(-60px);
+    10% {
+      transform: translateY(-10px);
     }
-    60% {
-      transform: translateY(-50px);
+    20% {
+      transform: translateY(-10px);
     }
 }
 
