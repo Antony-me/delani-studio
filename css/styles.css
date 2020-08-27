@@ -116,10 +116,10 @@ input[type=submit] {
     padding-top: 50px;
 }
 .social li:hover{
-    animation: bounce 2s ;
+    animation: wobble 2s ;
 
 }
-@keyframes backdrop {
+@keyframes wobble {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(10);
     }
