@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
        </head>
     <header>
         <img src="assets/logo/logo.png" alt="logo">
@@ -106,16 +108,20 @@
           </div> 
         <div class="contacts">
             <h3>CONTACT US</h3>
-            <div class="contact">
-                <form action="a">
-                  <label for="name"></label>
-                  <input type="name" id="name" name="" placeholder="Name...">
-                  <label for="email"></label>
-                  <input type="email" id="email" email="" placeholder="Email...">
-
-                  <textarea id="subject" name="subject" placeholder="Your messsage here.." style="height:200px"></textarea>
-                </form>
-              </div>
+            <form  action="https://gmail.us17.list-manage.com/subscribe/post?u=2c0f72c8a157671e397a20fd0&amp;id=e2dbe50951" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="form-group">
+                  <input type="text" name="FNAME" placeholder = "Name...." id="name" value="">
+                  <input type="email"  name="EMAIL" placeholder = "Email...." autocapitalize="off" autocorrect="off" id="email"  value="">
+                </div>
+                <div class="form-group">
+                  <textarea id="comment" placeholder = "Your message here...."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div> 
+            </form> 
         </div>
         <footer>
             <div class="social">

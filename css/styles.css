@@ -105,44 +105,41 @@ h2, h3{
     outline: 3px solid white;
     outline-offset: -17px;
 }
-.contact {
-    margin: 10px;
-    height: 100%;
-    border-radius: 5px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+.contacts{
+    color: white;
+    height: 500px;
+    background-position: center center;
     
+} 
+#name, #email{
+    width: 47%;
+    margin-bottom: 1.5%;
+    margin-right: 1%;
+    background-color: transparent;
+    border: 2px solid white;
 }
-[type=text], select, textarea {
-    width: 75%; 
-    padding: 12px;
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
+#comment{
+    width: 93%;
+    margin-left: 2% ;
+    background-color: transparent;
+    height: 300px;
+    border: 2px solid white;
 }
-[type=email], select, textarea{
-    width: 45%;
+::placeholder{
+    color: white;
 }
-[type=name], select, textarea {
-    width: 45%;
+form{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding-top: 2%;
 }
-[type=submit], select, textarea{
-    width: 90%;
-}
-  
+    
 input[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-.contacts{
-    height: 400px;
-    color: white;
 }
 .social ul{
     list-style: none;
@@ -160,7 +157,6 @@ footer{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-weight: 200;
-    font-size: ;
 }
 @keyframes wobble {
     0%, 20%, 50%, 80%, 100% {
