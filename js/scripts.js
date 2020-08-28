@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".contact").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
 })
 $(document).ready(function(){
-    $("#work8").mouseover(function(){
+    $("#work4").mouseover(function(){
       $("#overlay").show();
     }).mouseout(function(){
       $("#overlay").hide();
