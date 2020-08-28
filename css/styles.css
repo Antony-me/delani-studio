@@ -66,14 +66,14 @@ h2, h3{
    
 }
 .col-md-3 img{
-    /* padding-top: 20px; */
+    padding-top: 20px;
     max-width: 100%;
     max-height: 100%;
 }
 .col-md-3{
   position: relative;
 }
-#overlay {
+#overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
     background-color:rgba(0,0,0,0.8);
     position: absolute;
     color: white;
@@ -144,7 +144,7 @@ input[type=submit] {
       transform: translateY(-10px);
     }
 }
-
+/* 
 @media only screen and (min-width: 625px){
     #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
       width: 100%;
@@ -163,4 +163,4 @@ input[type=submit] {
         flex-wrap: wrap;
         flex-direction: column;
     }    
-}
+} */
