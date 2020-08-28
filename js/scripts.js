@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("header").css('background-image', 'url(assets/backgrounds/h_img.jpg)');
     $(".services").css('background-image', 'url(assets/backgrounds/s_image.jpg)');
-    $(".contact").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
+    $(".contacts").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
 })
 
 $(document).ready(function(){
@@ -10,7 +10,7 @@ $(document).ready(function(){
       $("#design").show(250);
     });
     $("#design").click(function(){
-      $("#design").hide();
+      $("#design").hide(250);
       $("#design-image").show(300);
     });
 });
@@ -20,20 +20,36 @@ $(document).ready(function(){
       $("#development").show(250);
     });
     $("#development").click(function(){
-      $("#development").hide();
+      $("#development").hide(250);
       $("#development-image").show(300);
     });
 });
 $(document).ready(function(){
     $("#product-image").click(function(){
       $("#product-image").hide();
-      $("#product").show(250);
+      $("#product").show(10);
     });
     $("#product").click(function(){
       $("#product").hide(250);
       $("#product-image").show(300);
     });
 });
+
+$(document).ready(function(){
+    $("form").submit(function(event){
+      // event.preventDefault();
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var message = $("#comment").val();
+      if ($("#name").val() && $("#email").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      } 
+    });
+  });
+  
   
   
 
@@ -95,3 +111,17 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
 });
+
+const client = require("mailchimp-marketing");
+
+client.setConfig({
+  apiKey: "YOUR_API_KEY",
+  server: "YOUR_SERVER_PREFIX",
+});
+
+const run = async () => {
+  const response = await client.ping.get();
+  console.log(response);
+}
+
+run();
