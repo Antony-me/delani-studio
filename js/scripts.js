@@ -3,6 +3,40 @@ $(document).ready(function(){
     $(".services").css('background-image', 'url(assets/backgrounds/s_image.jpg)');
     $(".contact").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
 })
+
+$(document).ready(function(){
+    $("#design-image").click(function(){
+      $("#design-image").hide();
+      $("#design").show(250);
+    });
+    $("#design").click(function(){
+      $("#design").hide();
+      $("#design-image").show(300);
+    });
+});
+  $(document).ready(function(){
+    $("#development-image").click(function(){
+      $("#development-image").hide();
+      $("#development").show(250);
+    });
+    $("#development").click(function(){
+      $("#development").hide();
+      $("#development-image").show(300);
+    });
+});
+$(document).ready(function(){
+    $("#product-image").click(function(){
+      $("#product-image").hide();
+      $("#product").show(250);
+    });
+    $("#product").click(function(){
+      $("#product").hide(250);
+      $("#product-image").show(300);
+    });
+});
+  
+  
+
 $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay").show();

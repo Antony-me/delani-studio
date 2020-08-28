@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     font-family: serif;
+    font-weight: bold;
 }
 header{
     text-align: center;
@@ -39,6 +40,8 @@ h1{
 .what-we-do{
     text-align: center;
     padding:20px 0 20px 40px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: 700;
     
 }
 .col-md-4 > #design, #development, #product{
@@ -46,7 +49,9 @@ h1{
 }
   
 h2, h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 .about{
     text-align: center;
@@ -63,6 +68,7 @@ h2, h3{
     text-align: center;
     margin: auto;
     line-height: 300%;
+    font-weight: inherit;
 }
 .portfolio{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -161,23 +167,3 @@ input[type=submit] {
       transform: translateY(-10px);
     }
 }
-/* 
-@media only screen and (min-width: 625px){
-    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-      width: 100%;
-      height: 100%;
-      top: 20px;
-      left: 20px;
-      padding-top:20%; 
-      font-size: 26px;
-    }
-    .col-md-3 img{
-      width: 400px;
-      margin: 20px;
-    }
-    .portfolio{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }    
-} */
