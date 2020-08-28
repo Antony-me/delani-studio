@@ -1,5 +1,6 @@
 body{
     box-sizing: border-box;
+    font-family: serif;
 }
 header{
     text-align: center;
@@ -85,7 +86,7 @@ h2, h3{
     position: absolute;
     top: 9%;
     left: 4%;
-    color: wheat;
+    color: white;
     padding-top: 10%;
     padding-left: 30px;
     padding-right: 50%;
