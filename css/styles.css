@@ -14,17 +14,24 @@ h1{
     margin: 5px;
 }
 #mouse{
-    padding-top: 220px;
+    /* padding-top: 220px; */
+    padding-top: 14%;
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    5%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
     }
-    40% {
-      transform: translateY(-60px);
+    10% {
+      transform: translateY(-50px);
     }
-    60% {
+    50% {
+        transform: translateY(-50px);
+    }
+    10% {
+        transform: translateY(-50px);
+    }
+    10% {
       transform: translateY(-50px);
     }
 }
