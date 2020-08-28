@@ -65,6 +65,7 @@ h2, h3{
     line-height: 300%;
 }
 .portfolio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -100,6 +101,7 @@ h2, h3{
 }
 .contact {
     margin: 10px;
+    height: 100%;
     border-radius: 5px;
     padding: 20px;
     display: flex;
