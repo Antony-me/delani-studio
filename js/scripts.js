@@ -123,5 +123,4 @@ const run = async () => {
   const response = await client.ping.get();
   console.log(response);
 }
-
 run();
