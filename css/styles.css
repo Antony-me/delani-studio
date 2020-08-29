@@ -39,8 +39,9 @@ h1{
 .what-we-do{
     text-align: center;
 }
-
-
+#design, #development, #product{
+    display: none;
+}
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -166,11 +167,11 @@ footer{
 }
 
 @media only screen and (max-width:800px) {
-    .about p, .services, .what-we-do .social{
+    .about, .services, .what-we-do .social{ 
       width:100%;
       height: 100%;
     }
-    .about{
+    .about p{
         width: 100%;
         height: 100%;
     }
