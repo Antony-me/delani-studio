@@ -1,7 +1,6 @@
 body{
     box-sizing: border-box;
     font-family: serif;
-    /* font-weight: bold; */
 }
 header{
     text-align: center;
@@ -39,12 +38,9 @@ h1{
 }
 .what-we-do{
     text-align: center;
-    padding:20px 0 20px 40px;
 }
-.col-md-4 > #design, #development, #product{
-    display: none;
-}
-  
+
+
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -61,7 +57,7 @@ h2, h3{
 .services{
     color: white;
     height: 400px;
-    padding-top: 150px;
+    padding-top: 9%;
     text-align: center;
     margin: auto;
     line-height: 300%;
@@ -75,38 +71,34 @@ h2, h3{
     align-items: center;
     margin-left: 225px;
     margin-right: 215px;
-   
 }
 .col-md-3 img{
-    padding-top: 20px;
     max-width: 100%;
     max-height: 100%;
 }
+.col-md-3 .mediaQ{
+    display: none;
+}
+.row{
+    padding-bottom: 50px;
+}
 #overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
     display: none;
-    border: 2px solid white;
-    padding: 5px;
     background-color:rgba(0,0,0,0.8);
     position: absolute;
-    top: 9%;
+    top: 0.1%;
     left: 4%;
     color: white;
-    padding-top: 10%;
-    padding-left: 6%;
-    padding-right: 50%;
-    object-fit: cover;
+    padding: 10% 50% 0 7%;
     font-weight: 1000;
     font-size: 1.7em;
     width: 92%;
-    height: 92%;
+    height: 100%;
     outline: 3px solid white;
     outline-offset: -17px;
 }
 .contacts{
-    color: white;
-    height: 500px;
-    background-position: center center;
-    
+    color: white; 
 } 
 #name, #email{
     width: 47%;
@@ -138,6 +130,11 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+.submit{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
 .social ul{
     list-style: none;
     text-align: center;
@@ -167,3 +164,14 @@ footer{
     text-align: center;
     font-weight: 200;
 }
+
+@media only screen and (max-width:800px) {
+    .about p, .services, .what-we-do .social{
+      width:100%;
+      height: 100%;
+    }
+    .about{
+        width: 100%;
+        height: 100%;
+    }
+  }
