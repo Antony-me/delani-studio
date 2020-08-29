@@ -7,7 +7,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").hide();
-      $("#design").show(250);
+      $("#design").show(0);
     });
     $("#design").click(function(){
       $("#design").hide(250);
@@ -17,7 +17,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $("#development-image").click(function(){
       $("#development-image").hide();
-      $("#development").show(250);
+      $("#development").show(10);
     });
     $("#development").click(function(){
       $("#development").hide(250);
@@ -45,7 +45,7 @@ $(document).ready(function(){
         alert (name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
-        alert("Please enter your name and email!");
+        alert("Please enter your name and a valid email !!");
       } 
     });
   });
