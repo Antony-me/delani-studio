@@ -2,7 +2,7 @@
 
 ## Author
 
-[Antony Simiyu  Munyasia] Github (https://github.com/Antony-me)
+[Antony Simiyu  Munyasia](https://github.com/Antony-me)
 
 ## Description
 This is a project about Delani Studio, It shows the portfolio of Delani studio, the services offered and a form configured using mailChimp used 
@@ -32,9 +32,9 @@ This is a project about Delani Studio, It shows the portfolio of Delani studio, 
 ## BDD
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Owiti Charles |     |
-| Enter your a valid Email Address  | Email |   |
-| Enter comment |  "........"   |     |
+|  Enter your name  |   Antony Simiyu  |  Name   |
+| Enter a valid Email Address  | Email |  Email |
+| Enter comment |  "Message"   |     |
 | Submit|     |Alert " we have received your message. Thank you for reaching out to us.|
 
 ## Known Bugs
@@ -44,5 +44,5 @@ This is a project about Delani Studio, It shows the portfolio of Delani studio, 
 
 [antonymunyasia993@gmail.com]
 
-## Live Page https://antony-me.github.io/delani-studio/
+# Live Page https://antony-me.github.io/delani-studio/
 
