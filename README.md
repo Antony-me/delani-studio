@@ -42,7 +42,7 @@ This is a project about Delani Studio, It shows the portfolio of Delani studio, 
 
 ## Contact Information 
 
-[antonymunyasia993@gmail.com]
+[Email](antonymunyasia993@gmail.com)
 
-# Live Page https://antony-me.github.io/delani-studio/
+#### Live Page https://antony-me.github.io/delani-studio/
 
