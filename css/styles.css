@@ -39,14 +39,16 @@ h1{
 .what-we-do{
     text-align: center;
 }
-
-
+#design, #development, #product{
+    display: none;
+}
 h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
 }
 .about{
+    padding-top: 30px;
     text-align: center;
     height: 270px;
     width: 69%;
@@ -142,6 +144,10 @@ input[type=submit] {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    
+}
+.social img{
+    width: 70%;
 }
 .social li:hover{
     animation: wobble 2s infinite;
@@ -166,12 +172,15 @@ footer{
 }
 
 @media only screen and (max-width:800px) {
-    .about p, .services, .what-we-do .social{
+    .about, .services, .what-we-do .social{ 
       width:100%;
       height: 100%;
     }
-    .about{
+    .about p{
         width: 100%;
         height: 100%;
+    }
+    .social img{
+        width: 50%;
     }
   }
