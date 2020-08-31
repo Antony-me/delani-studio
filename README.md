@@ -45,4 +45,3 @@ This is a project about Delani Studio, It shows the portfolio of Delani studio, 
 [Email](antonymunyasia993@gmail.com)
 
 #### Live Page https://antony-me.github.io/delani-studio/
-
