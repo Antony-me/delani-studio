@@ -1,29 +1,30 @@
-$(document).ready(function(){
-    $("header").css('background-image', 'url(assets/backgrounds/h_img.jpg)');
-    $(".services").css('background-image', 'url(assets/backgrounds/s_image.jpg)');
-    $(".contacts").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
-})
+
+$("header").css('background-image', 'url(assets/backgrounds/h_img.jpg)');
+$(".services").css('background-image', 'url(assets/backgrounds/s_image.jpg)');
+$(".contacts").css('background-image', 'url(assets/backgrounds/c_image.jpg)');
 
 $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").hide();
-      $("#design").show(0);
+      $("#design").show(10);
     });
     $("#design").click(function(){
       $("#design").hide(250);
-      $("#design-image").show(300);
+      $("#design-image").show(10);
     });
 });
-  $(document).ready(function(){
+
+$(document).ready(function(){
     $("#development-image").click(function(){
       $("#development-image").hide();
       $("#development").show(10);
     });
     $("#development").click(function(){
       $("#development").hide(250);
-      $("#development-image").show(300);
+      $("#development-image").show(10);
     });
 });
+
 $(document).ready(function(){
     $("#product-image").click(function(){
       $("#product-image").hide();
@@ -31,27 +32,9 @@ $(document).ready(function(){
     });
     $("#product").click(function(){
       $("#product").hide(250);
-      $("#product-image").show(300);
+      $("#product-image").show(10);
     });
 });
-
-$(document).ready(function(){
-    $("form").submit(function(event){
-      // event.preventDefault();
-      var name = $("#name").val();
-      var email = $("#email").val();
-      var message = $("#comment").val();
-      if ($("#name").val() && $("#email").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
-      }
-      else {
-        alert("Please enter your name and a valid email !!");
-      } 
-    });
-  });
-  
-  
-  
 
 $(document).ready(function(){
     $("#work1").mouseover(function(){
@@ -112,15 +95,16 @@ $(document).ready(function(){
     });
 });
 
-const client = require("mailchimp-marketing");
-
-client.setConfig({
-  apiKey: "YOUR_API_KEY",
-  server: "YOUR_SERVER_PREFIX",
+$(document).ready(function(){
+  $("form").submit(function(event){
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#comment").val();
+    if ($("#name").val() && $("#email").val()){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your Name and a valid Email or Subscribe if you are not suscribed!!");
+    } 
+  });
 });
-
-const run = async () => {
-  const response = await client.ping.get();
-  console.log(response);
-}
-run();

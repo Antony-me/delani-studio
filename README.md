@@ -5,7 +5,7 @@
 [Antony Simiyu  Munyasia](https://github.com/Antony-me)
 
 ## Description
-This is a project about Delani Studio, It shows the portfolio of Delani studio, the services offered and a form configured using mailChimp used 
+This is a project about Delani Studio, It shows the portfolio of Delani studio, the services offered and a form configured using mailChimp. 
 ## Screenshot
 <img src="assets/delaniH.png">
 <img src= "assets/delani2.png">
