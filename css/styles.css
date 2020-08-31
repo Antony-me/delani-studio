@@ -120,6 +120,10 @@ form{
     width: 60%;
     padding-top: 2%;
 }
+form input, #comment{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
     
 input[type=submit] {
     padding: 12px 20px;
